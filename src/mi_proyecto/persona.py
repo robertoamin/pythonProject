@@ -20,7 +20,6 @@ class Persona:
 
         def calcular_anio_nacimiento(self, ya_cumplio_anios):
             anio_actual= datetime.datetime.now().year
-            print(anio_actual)
             if ya_cumplio_anios:
                 return (anio_actual-self.__edad)
             else:
