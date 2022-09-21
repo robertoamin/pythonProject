@@ -1,6 +1,6 @@
 import unittest
 import datetime
-import numpy
+#import numpy
 from src.mi_proyecto.persona import Persona
 
 class PersonaTestCase(unittest.TestCase):
